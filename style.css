@@ -75,4 +75,7 @@
     transition: 0.6s ease;
     transform: scale(1.075);
   }
+  center h1 {
+    color: red;
+  }
 </style>
