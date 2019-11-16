@@ -8,6 +8,8 @@
   #nav {
     height: 100px;
     background-color: white;
+    overflow: auto;
+    position: fixed;
   }
   #nav h3 {
     color: red;
