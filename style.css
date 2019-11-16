@@ -4,12 +4,12 @@
   }
   body {
     background-color: #ededed;
-    overflow: hidden;
   }
   #nav {
     height: 100px;
     background-color: white;
-    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
   }
   #nav h3 {
     color: red;
