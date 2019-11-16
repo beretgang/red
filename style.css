@@ -2,6 +2,10 @@
   * {
    font-family: 'Montserrat', sans-serif;
   }
+  ::selection {
+    color: white;
+    background-color: red;
+  }
   body {
     background-color: #ededed;
   }
