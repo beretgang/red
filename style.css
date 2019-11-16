@@ -8,7 +8,6 @@
   #nav {
     height: 100px;
     background-color: white;
-    display: flex;
   }
   #nav h3 {
     color: red;
