@@ -78,4 +78,8 @@
   center h1 {
     color: red;
   }
+  #channel {
+    color: white;
+    background-color: #7289DA;
+  }
 </style>
