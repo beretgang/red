@@ -3,23 +3,23 @@
     <title>Redberet</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="icon" href="rblogo.ico" />
+    <link rel="icon" href="blogo.ico" />
     <meta name="description" content="Redberet official website">
     <meta name="keywords" content="miracle,ide,coding,programming,code,program,software,download,informatics,ict,it">
     <meta name="author" content="Redberet official website">
-    <meta property="og:image" content="https://beretgang.github.io/red/rblogo.png">
+    <meta property="og:image" content="https://beretgang.github.io/red/blogo.png">
     <meta name="theme-color" content="#ff0000">
   </head>
   <body>
     <div class="row">
       <div class="col-md-12">
         <div id="nav">
-          <a href="https://beretgang.github.io/red/"><img id="logo" src="rblogo.png"></a>
+          <a href="https://beretgang.github.io/red/"><img id="logo" src="blogo.png"></a>
           <h3>Redberet</h3>
           <ul>
             <li class="active"><a href="https://beretgang.github.io/red/">Home</a></li>
             <li><a href="about">About</a></li>
-            <li><a href="shop">SMP and UHC</a></li>
+            <li><a href="smp-uhc">SMP and UHC</a></li>
             <li><a href="youtube">Youtube</a></li>
             <li><a href="discord">Discord</a></li>
             <li><a href="shop">Shop</a></li>
@@ -31,6 +31,12 @@
     <br>
     <center>
       <h1>Welcome to the Redberet official website!</h1>
+      <br>
+      <br>
+      <a id="btn" href="https://beretgang.github.io/">Home</a>  <a id="btn" href="about">About</a>  <a id="btn" href="smp-uhc">SMP and UHC</a>
+      <br>
+      <br>
+      <a id="btn" href="youtube">Youtube</a>  <a id="btn" href="discord">Discord</a>  <a id="btn" href="shop">Shop</a>
     </center>
   </body>
 </html>
@@ -49,6 +55,7 @@
     color: red;
     float: left;
     margin-top: 35px;
+    margin-left: 10px;
   }
   #logo {
     width: 100px;
@@ -92,5 +99,22 @@
     padding: 5px 20px;
     border: 1px solid red;
     background: none;
+  }
+  #btn {
+    border: 1px solid red;
+    padding: 10px 30px;
+    color: red;
+    text-decoration: none;
+    background-color: #ededed;
+    outline: none;
+    transition: 0.6s ease;
+  }
+  #btn:hover {
+    background-color: red;
+    color: #ededed;
+    cursor: pointer;
+    outline: none;
+    transition: 0.6s ease;
+    transform: scale(1.075);
   }
 </style>
