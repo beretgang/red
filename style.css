@@ -4,11 +4,12 @@
   }
   body {
     background-color: #ededed;
+    overflow: hidden;
   }
   #nav {
     height: 100px;
     background-color: white;
-    overflow: auto;
+    overflow-y: auto;
   }
   #nav h3 {
     color: red;
