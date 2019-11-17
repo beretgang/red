@@ -87,7 +87,7 @@
     background-color: #7289DA;
   }
   #editor-beret {
-    background: #000000;
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 black);
     width: 100px;
     height: 100px;
   }
