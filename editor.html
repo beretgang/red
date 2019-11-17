@@ -75,7 +75,10 @@
         g_hex = parseInt(g.value, 10).toString(16),
         b_hex = parseInt(b.value, 10).toString(16),
         hex = "#" + pad(r_hex) + pad(g_hex) + pad(b_hex);
+    var defaultImage = "http://beretgang.github.io/hat.png";
     hat.style.backgroundColor = hex;
+    document.getElementId('editor-beret')[0].style.backgroundColor = localStorage.getItem('hat') ? "url('"+localStorage.getItem('hat')+"')" : "url('"+defaultImage+"')";
+    localStorage.setItem('hat',document.GetElementById("editor-beret"));
   }
 
   function pad(n){
