@@ -115,4 +115,8 @@
   label[for=b], output[for=b]{
     background-color: #00f;
   }
+  #editor-face {
+    width: 100px;
+    height: 100px;
+  }
 </style>
