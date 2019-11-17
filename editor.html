@@ -74,11 +74,8 @@
     var r_hex = parseInt(r.value, 10).toString(16),
         g_hex = parseInt(g.value, 10).toString(16),
         b_hex = parseInt(b.value, 10).toString(16),
-        hex = "#" + pad(r_hex) + pad(g_hex) + pad(b_hex);
-    var defaultImage = "http://beretgang.github.io/hat.png";
+        hex = "#" + pad(r_hex) + pad(g_hex) + pad(b_hex);\
     hat.style.backgroundColor = hex;
-    document.getElementById('editor-beret').style.backgroundColor = localStorage.getItem('hat') ? "url('"+localStorage.getItem('hat')+"')" : "url('"+defaultImage+"')";
-    localStorage.setItem('hat',document.getElementById("editor-beret"));
   }
 
   function pad(n){
