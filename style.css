@@ -86,4 +86,9 @@
     color: white;
     background-color: #7289DA;
   }
+  #editor-beret {
+    color: #000000;
+    width: 100px;
+    height: 100px;
+  }
 </style>
