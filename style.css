@@ -88,6 +88,7 @@
   }
   #editor-beret {
     -webkit-filter: opacity(1) drop-shadow(0 0 0 black);
+    filter: opacity(1) drop-shadow(0 0 0 black);
     width: 100px;
     height: 100px;
   }
