@@ -78,7 +78,7 @@
     var defaultImage = "http://beretgang.github.io/hat.png";
     hat.style.backgroundColor = hex;
     document.getElementById('editor-beret').style.backgroundColor = localStorage.getItem('hat') ? "url('"+localStorage.getItem('hat')+"')" : "url('"+defaultImage+"')";
-    localStorage.setItem('hat',document.GetElementById("editor-beret"));
+    localStorage.setItem('hat',document.getElementById("editor-beret"));
   }
 
   function pad(n){
