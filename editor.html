@@ -123,6 +123,13 @@
   }
 </style>
 <script>
+  var canvasObj = document.getElementById("myCanvas");
+  var ctx = canvasObj.getContext("2d");
+  var imgBeret = document.getElementById("editor-beret");
+  var imgFace = document.querySelector(".editor-face-selection");
+  var imgBeretNew = new Image; img.onload = draw; img.src = "https://beretgang.github.io/red/hat.png";
+  var ctx = canvasObj.getContext("2d");
+  
   var hat = document.getElementById("editor-beret");
   var r = document.querySelector('#r');
   var g = document.querySelector('#g');
@@ -136,7 +143,14 @@
         g_hex = parseInt(g.value, 10).toString(16),
         b_hex = parseInt(b.value, 10).toString(16),
         hex = "#" + pad(r_hex) + pad(g_hex) + pad(b_hex);
-    hat.style.backgroundColor = hex;
+    ctx.fillStyle = hex;
+    ctx.fillRect(0, 0, canvasObj.width, canvasObj.height);
+
+    // set composite mode
+    ctx.globalCompositeOperation = "destination-in";
+
+    // draw image
+    ctx.drawImage(imgBeretNew, 0, 0);
   }
 
   function pad(n){
